@@ -1,0 +1,4 @@
+conda create -n test 
+activate test 
+conda install ipykernel 
+python -m ipykernel install --user --name test –display "Python [test]"
